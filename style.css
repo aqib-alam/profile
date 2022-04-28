@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar{
+    box-shadow: 0px 1px 10px;
+    text-transform: uppercase;
+    font-size: x-small;
+}
+
+.logo{
+    margin: 5px 0px;
+    max-height: 50px;
+}
+
+ul{
+    display: flex;
+    color: #000;
+}
+
+li{
+    color: #000;
+    margin-top: 15px;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.intro{
+    height: 100%;
+    width: 50%;
+}
+
+.about-me{
+    color: white;
+    background-color: #000;
+    margin-top: 20px;
+}
+.text-about-me{
+    padding-top: 20vw;
+    text-align: center;
+}
+
+.text-about-me h1{
+    padding: 0px 10px;
+}
+
+.intro img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.skills{
+    margin: 100px 5vh;
+    text-align: center;
+}
+
+.skill-img{
+    display: flex;
+    place-items: center;
+}
+
+.skill-img img{
+    padding-top: 50px;
+    margin: auto;
+    max-height: 70px;
+}
+
+.location{
+    margin-top: 175px;
+    color: white;
+    background-color: #000;
+}
+
+.location div{
+    width: 50%;
+}
+
+.location h2{
+    margin-left: 50px;
+    margin-bottom:70px;
+}
+
+.location p{
+    margin-top: 0px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.socials{
+    margin: 100px 5vh;
+    text-align: center;
+}
+.social-links{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials img{
+
+    width: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    font-size: small;
+}
